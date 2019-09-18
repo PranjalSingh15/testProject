@@ -17,13 +17,6 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>payaskumar-artifactory-primary-0-releases</name>
-        <url>https://payaskumar.jfrog.io/payaskumar/Jenkins-integration</url>
-    </repository>
-</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -33,6 +26,13 @@
     </dependency>
   </dependencies>
 
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>payaskumar-artifactory-primary-0-releases</name>
+        <url>https://payaskumar.jfrog.io/payaskumar/Jenkins-integration</url>
+    </repository>
+</distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
