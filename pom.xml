@@ -78,8 +78,6 @@
         <name>pranjal-artifactory-primary-0-releases</name>
         <url>https://pranjal.jfrog.io/pranjal/Jenkins-integration</url>
     </repository>
-</distributionManagement>
-  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>pranjal-artifactory-primary-0-snapshots</name>
